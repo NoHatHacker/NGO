@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.wrapper{
+    height: 100%;
+    width: 100%;
+    background-color: #9d9d9d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.nav{
+    height: 18%;
+    width: 100%;
+    /* border:2px solid red; */
+}
+.nav1{
+    height: 40%;
+    width: 100%;
+    background-color: #305a7d;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+    gap: 8vw;
+    text-decoration: underline;
+}
+.nav2{
+    height: 60%;
+    width: 100%;
+    background-color: #e4e4d0;
+    font-size: 2vw;
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+    font-weight: 700;
+}
+.nav2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1vw;
+    padding-right: 4vw;
+}
+a:hover{
+    text-decoration: underline;
+}
+.anchors{
+    margin-left: 55vw;
+    /* border: 2px solid gold; */
+}
+.content{
+    height: 82%;
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+}
+.content-left{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid red; */
+    padding-top: 5vw;
+    padding-left: 8vw;
+}
+.content-right{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid red; */
+    background-image: url(images/Untitled18_20240112144528.png);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+.p1{
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+.p2{
+    font-size: 5vw;
+    font-weight: 600;
+}
+span{
+    color: #305a7d;
+}
+.p3{
+    font-size: 1vw;
+    text-decoration:underline;
+    margin-top: 2vw;
+}
+#i1{
+    font-size: 1vw;
+    /* padding-left: 0.3vw; */
+    text-decoration:underline;
+}
+.btn{
+    height: 18%;
+    width: 60%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 3.8vw;
+}
+button{
+    height: 60%;
+    width: 50%;
+    /* border: 2px solid aqua; */
+    border-radius: 30px;
+    border: none;
+    font-weight: 700;
+}
+button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.btn1{
+    background-color: #305a7d;
+    border: 1px solid #305a7d;
+    color: white;
+}
+.btn2{
+    border: 1px solid #305a7d;
+    color: rgb(87, 87, 87);
+}
