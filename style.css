@@ -144,6 +144,10 @@ button:hover{
     text-decoration: none;
     color: rgb(61, 61, 61);
 }
+.p3 a{
+    text-decoration: none;
+    color: black;
+}
 
 /*making responsive*/
 
