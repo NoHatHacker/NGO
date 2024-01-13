@@ -132,13 +132,17 @@ button:hover{
     background-color: #305a7d;
     border: 1px solid #305a7d;
     color: white;
+    text-decoration: none;
 }
 .btn2{
     border: 1px solid #305a7d;
-    color: rgb(87, 87, 87);
 }
 .nav2 i{
     display: none;
+}
+.btn2 a{
+    text-decoration: none;
+    color: rgb(61, 61, 61);
 }
 
 /*making responsive*/
