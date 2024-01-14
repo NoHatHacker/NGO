@@ -221,6 +221,11 @@ button:hover{
     margin-bottom: 1vw;
     font-weight: 600;
 }
+.contacts :nth-child(3){
+    text-decoration: underline;
+    margin-bottom: 1vw;
+    font-weight: 600;
+}
 /*making responsive*/
 
 @media(max-width:600px){
