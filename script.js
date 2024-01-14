@@ -1,19 +1,11 @@
-gsap.from(".content-left",{
-    x:-100,
-    duration:1.8,
-    delay: 0.5,
-    opacity: 0
-})
+let a = document.querySelector(".nav-sidebar");
+let b = document.querySelector(".nav-sidebar i");
+let c = document.querySelector(".nav2");
+let d = document.querySelector(".nav2 i");
 
-gsap.from(".content-right",{
-    x:100,
-    duration: 1.8,
-    delay:  0.5,
-    opacity: 0
+d.addEventListener("click",() => {
+    a.style.display = "flex";
 })
-gsap.from(".nav",{
-    y:-50,
-    duration:2,
-    delay: 0.3,
-    opacity: 0,
+b.addEventListener("click",() => {
+    a.style.display = "none";
 })

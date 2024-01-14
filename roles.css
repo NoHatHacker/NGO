@@ -21,46 +21,44 @@ html,body{
     justify-content: center;
     align-items: center;
 }
-.para{
-    height: 90%;
-    width: 55%;
-    /* border: 2px solid blue; */
-}
-span{
-    color: #305a7d;
-}
-.para .p1{
+h2{
     text-align: center;
+    font-size: 2.5vw;
     text-decoration: underline;
-    font-size: 3vw;
-    font-weight: 700;
-    margin-bottom: 4vw;
-}
-.para .p2{
+    color: #305a7d;
     margin-top: 3vw;
-    margin-left: 2vw;
+    margin-bottom: 2vw;
+}
+.list{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 40%;
     font-size: 1.5vw;
 }
-.s1{
-    font-weight: 700;
+h4{
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+}
+li{
+    padding-left: 2vw;
 }
 @media(max-width:600px){
     .wrapper{
         background-position-x: center;
         background-position-y: center;
     }
-    .para{
-        height: 60%;
-        width: 90%;
-        /* border: 2px solid blue; */
-        margin-top: -8vw;
-    }
-    .para .p1{
+    h2{
         font-size: 6vw;
-        margin-bottom: 10vw;
     }
-    .para .p2{
+    .list{
+        font-size: 3.5vw;
+        margin-top: 10vw;
+        width: 80%;
+    }
+    h4{
         font-size: 3vw;
     }
-
+    li{
+        padding-left: 6vw;
+    }
 }

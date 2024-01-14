@@ -21,46 +21,44 @@ html,body{
     justify-content: center;
     align-items: center;
 }
-.para{
-    height: 90%;
-    width: 55%;
+.donation{
+    height: 75%;
+    width: 70%;
+    border: 4px solid #305a7d;
+    display: flex;
+    justify-content: flex-end;
+}
+.qr{
+    height: 100%;
+    width: 50%;
     /* border: 2px solid blue; */
 }
-span{
-    color: #305a7d;
+.qr img{
+    height: 100%;
+    width: 100%;
+    scale: 0.8;
 }
-.para .p1{
-    text-align: center;
-    text-decoration: underline;
-    font-size: 3vw;
-    font-weight: 700;
-    margin-bottom: 4vw;
-}
-.para .p2{
-    margin-top: 3vw;
-    margin-left: 2vw;
-    font-size: 1.5vw;
-}
-.s1{
-    font-weight: 700;
+.text{
+    height: 100%;
+    width: 50%;
+    font-size: 1.6vw;
+    padding: 2.5vw;
 }
 @media(max-width:600px){
     .wrapper{
         background-position-x: center;
         background-position-y: center;
     }
-    .para{
-        height: 60%;
-        width: 90%;
-        /* border: 2px solid blue; */
-        margin-top: -8vw;
+    .donation{
+        flex-direction: column-reverse;
+        width: 80%;
     }
-    .para .p1{
-        font-size: 6vw;
-        margin-bottom: 10vw;
+    .qr{
+        width: 100%;
+        height: 200%;
     }
-    .para .p2{
-        font-size: 3vw;
+    .text{
+        width: 100%;
+        font-size: 3.5vw;
     }
-
 }

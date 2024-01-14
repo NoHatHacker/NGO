@@ -63,6 +63,42 @@ a:hover{
     margin-left: 55vw;
     /* border: 2px solid gold; */
 }
+.nav-sidebar{
+    height: 100vh;
+    width: 75vw;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 11111;
+    background-color: #f7f7df;
+    backdrop-filter: blur(8px);
+    box-shadow: 10px 10px 30px 10px black;
+    display: none;
+}
+.nav-sidebar  i{
+    font-size: 8vw;
+    padding: 3vw;
+    color: #305a7d;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.nav-sidebar  li{
+    list-style-type: none;
+    padding-left: 2vw;
+    padding-top: 5vw;
+    font-size: 5vw;
+    font-weight: 600;
+    color: #305a7d;
+}
+.list{
+    height: 30%;
+    width: 50%;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 20vw;
+    margin-left: 10vw;
+}
 .content{
     height: 82%;
     width: 100%;
@@ -84,6 +120,10 @@ a:hover{
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
+}
+.content-right img{
+    height: 100%;
+    width: 100%;
 }
 .p1{
     font-size: 2.5vw;
@@ -148,7 +188,39 @@ button:hover{
     text-decoration: none;
     color: black;
 }
-
+.nav-sidebar a{
+    color: #305a7d;
+    text-decoration: none;
+}
+.btn1 a{
+    color: white;
+    text-decoration: none;
+}
+.contacts{
+    /* border: 2px solid red; */
+    height: 18%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20vw;
+    font-size: 3vw;
+    padding-left: 10vw;
+    color: #3a507d;
+}
+.contacts :nth-child(3){
+    padding-top: 8vw;
+    font-weight: 600;
+}
+.contacts :nth-child(1){
+    text-decoration: underline;
+    margin-bottom: 1vw;
+    font-weight: 600;
+}
+.contacts :nth-child(2){
+    text-decoration: underline;
+    margin-bottom: 1vw;
+    font-weight: 600;
+}
 /*making responsive*/
 
 @media(max-width:600px){
@@ -197,7 +269,7 @@ button:hover{
     }
     .p3{
         font-size: 2.5vw;
-        padding-top: 2vw;
+        padding-top: 7vw;
     }
     .btn{
         display: block;

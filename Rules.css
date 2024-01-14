@@ -21,46 +21,54 @@ html,body{
     justify-content: center;
     align-items: center;
 }
-.para{
-    height: 90%;
-    width: 55%;
-    /* border: 2px solid blue; */
+.rules{
+    height: 100%;
+    width: 68%;
+    /* border: 2px solid red;  */
 }
-span{
-    color: #305a7d;
-}
-.para .p1{
-    text-align: center;
-    text-decoration: underline;
-    font-size: 3vw;
-    font-weight: 700;
-    margin-bottom: 4vw;
-}
-.para .p2{
-    margin-top: 3vw;
-    margin-left: 2vw;
+.rules li{
     font-size: 1.5vw;
+    line-height: 2vw;
 }
-.s1{
-    font-weight: 700;
+.rules h2{
+    text-align: center;
+    font-size: 2.5vw;
+    color: #305a7d;
+    text-decoration: underline;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+}
+.list2 li{
+    margin-left: 3vw;
+}
+.list1 li{
+    margin-left: 3vw;
+}
+.list1{
+    margin-bottom: 2vw;
+}
+ul{
+    margin-left: 3vw;
 }
 @media(max-width:600px){
     .wrapper{
         background-position-x: center;
         background-position-y: center;
     }
-    .para{
-        height: 60%;
+    .rules{
+        height: 80%;
         width: 90%;
-        /* border: 2px solid blue; */
-        margin-top: -8vw;
+        margin-top: -10vw;
     }
-    .para .p1{
+    .rules h2{
         font-size: 6vw;
-        margin-bottom: 10vw;
+        margin-bottom: 7vw;
     }
-    .para .p2{
+    .rules li{
         font-size: 3vw;
+        line-height: 5vw;
     }
-
+    .list2 li{
+        margin-left: 5vw;
+    }
 }

@@ -23,6 +23,7 @@ html,body{
     background-image: url(images/1.jpeg);
     background-size: cover;
     background-position-y: -17vw;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
